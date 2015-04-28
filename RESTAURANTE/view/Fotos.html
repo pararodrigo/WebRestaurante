@@ -1,0 +1,64 @@
+<h2>Mira nuestra galeria de fotos</h2>
+<div id="contenido_galeria" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
+    <div id="imagen1"class="img-responsive imagen">
+        <img src="images/1.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis varius elementum. In euismod tempor mi eu euismod. Donec libero tortor, tincidunt id egestas at, ultricies non nisl. Donec enim lorem, commodo sed dapibus quis, molestie vitae urna. Mauris semper dignissim nibh. Proin rhoncus, urna non posuere sagittis, risus eros iaculis tellus, a hendrerit sem felis nec urna. Integer purus mauris, pharetra quis commodo non, varius quis ante.</p>
+    </div>
+    <div id="imagen2" class="img-responsive imagen">
+        <img src="images/2.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Nullam et dolor ut neque eleifend elementum in quis lacus. Donec lorem libero, posuere feugiat ornare vitae, adipiscing in nunc. Sed gravida, purus vel malesuada luctus, nisi nisi lobortis nisl, nec auctor odio diam non nibh. Maecenas mattis mi sed arcu consequat id pretium tortor facilisis. Praesent nec vestibulum massa. Proin at pulvinar orci. Nulla facilisi. Duis rhoncus diam ut orci ultricies auctor dignissim massa rutrum. </p>
+    </div>
+    <div id="imagen3" class="img-responsive imagen">
+        <img src="images/3.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Nulla facilisi. Phasellus blandit dictum neque. Etiam id fringilla nisl. Fusce pharetra commodo felis ac viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisi lorem, feugiat at adipiscing eu, ullamcorper eget orci. Curabitur scelerisque diam et risus vestibulum convallis. Integer vestibulum ultricies purus sed semper. Ut lobortis dui non nunc facilisis venenatis.</p>
+    </div>
+    <div id="imagen4" class="img-responsive imagen">
+        <img src="images/4.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Fusce porta pretium tincidunt. Curabitur sapien purus, malesuada sit amet sagittis ut, feugiat volutpat magna. Duis vitae enim ligula. In orci ligula, mollis quis facilisis in, rhoncus sodales ipsum. Mauris vel sem mauris, at sollicitudin magna. Fusce mi sem, porttitor ut rutrum vitae, sollicitudin in nibh. Integer quis leo libero. Quisque ligula lorem, mollis et viverra at, consequat et turpis.</p>
+    </div>
+    <div id="imagen5" class="img-responsive imagen">
+        <img src="images/5.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Aenean semper auctor sem fringilla volutpat. Maecenas ultricies tortor quis sapien vulputate scelerisque. Integer consequat purus at libero posuere vel vestibulum est tristique. Donec augue arcu, hendrerit sed dignissim ut, eleifend et neque. Sed placerat, augue quis vulputate accumsan, libero nibh posuere quam, a volutpat ante odio et ipsum. Nulla malesuada tellus ac justo mattis ultrices. </p>
+    </div>
+    <div id="imagen6" class="img-responsive imagen">
+        <img src="images/6.jpg" alt="" class="col-xs-12 col-sm-12 col-md-7 col-lg-7 img-thumbnail"/>
+        <p class="col-xs-12 col-sm-12 col-md-5 col-lg-5">Suspendisse potenti. Nam elementum augue id augue lobortis et ultrices nisi vestibulum. In dapibus, nibh a vehicula rutrum, risus enim tincidunt erat, eu facilisis felis ante cursus arcu. Aenean ut varius libero. Sed metus tellus, tempus eu cursus quis, consectetur vitae lorem. Nullam sodales nulla a erat tempus condimentum.  Aenean vulputate neque eget arcu consequat interdum. Aliquam ut nisi dui, sit amet tincidunt sem. Etiam volutpat dignissim gravida.</p>
+    </div>
+</div><!-- fin div contenido-galeria -->
+
+<div class="jMyCarousel  row col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix" id="libreria_fotos">
+    <ul>
+        <li><a href="#imagen1" title=""><img src="images/thumbs/1.jpg"alt="Imagen" class="img-responsive"/></a></li>
+        <li><a href="#imagen2" title=""><img src="images/thumbs/2.jpg"alt="Imagen" class="img-responsive"/></a></li>
+        <li><a href="#imagen3" title=""><img src="images/thumbs/3.jpg"alt="Imagen" class="img-responsive"/></a></li>
+        <li><a href="#imagen4" title=""><img src="images/thumbs/4.jpg"alt="Imagen" class="img-responsive"/></a></li>
+        <li><a href="#imagen5" title=""><img src="images/thumbs/5.jpg"alt="Imagen" class="img-responsive"/></a></li>
+        <li><a href="#imagen6" title=""><img src="images/thumbs/6.jpg"alt="Imagen" class="img-responsive"/></a></li>
+    </ul>
+</div><!-- Fin div jMyCarousel -->
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
+            visible: '100%',
+            eltByElt: true
+        });
+        $(".jMyCarousel img").fadeTo(100, 0.6);
+        $(".jMyCarousel a img").hover(
+                function(){ //mouse over
+                    $(this).fadeTo(400, 1);
+                },
+                function(){ //mouse out
+                    $(this).fadeTo(400, 0.6);
+                });
+
+        $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
+        $('#contenido_galeria div:first').addClass('aqui');
+        $('.jMyCarousel a').click(function(){
+            $('#contenido_galeria div.aqui').fadeOut(400);
+            $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
+            return false;
+        });
+    });
+
+</script>

@@ -1,0 +1,103 @@
+/* variables*/
+/* Funciones */
+/***********************************************************************************************/
+/* Estilos */
+/*Barra de navegacion*/
+#navegacion {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+#divNavegacion {
+  background-color: black;
+}
+#container,
+footer,
+#pagina_platos {
+  padding: 2em;
+}
+#container {
+  margin: auto;
+  height: auto;
+}
+article {
+  margin-top: 2em;
+}
+.descripciones_menus {
+  font-family: verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+.descripcion_plato {
+  padding: 1em;
+  text-align: justify;
+}
+/*fotografias*/
+div.jMyCarousel {
+  height: 143px !important;
+}
+div.jMyCarousel .prev {
+  background: url('../img/left.png') center center no-repeat;
+  width: 47px;
+  height: 61px;
+  border: 0px;
+}
+div.jMyCarousel .next {
+  background: url('../img/right.png') center center no-repeat;
+  width: 40px;
+  height: 61px;
+  border: 0px;
+}
+div.jMyCarousel ul li {
+  margin: 0px;
+  line-height: 0px;
+  padding: 0px;
+}
+div.jMyCarousel ul li a {
+  display: block;
+}
+div.jMyCarousel ul li img {
+  display: block;
+  border: 0px;
+  margin: 0px 5px 0px;
+}
+#contenido_galeria {
+  display: block;
+}
+#libreria_fotos {
+  margin-top: 480px;
+}
+.imagen p {
+  text-align: justify;
+}
+/* Localicazion */
+#localizacion {
+  margin: auto;
+}
+#mapa {
+  height: 250px;
+  width: 250px;
+}
+/* Reserva de mesa*/
+#reserva_mesa,
+#imagenMesa {
+  margin-top: 2em;
+}
+/* fima en el footer */
+#firma small p,
+#firma {
+  text-align: center;
+}
+/***********************************************************************************************/
+/*diseño responsivo*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #mapa {
+    height: 328px;
+    width: 528px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*mapa*/

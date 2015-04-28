@@ -1,0 +1,31 @@
+
+ANOTACIONES SOBRE LA TAREA.
+
+* ANGUALARJS
+
+Para esta pagina he utilizado Angular-route para evitar que se pueda acceder a las vistas poniendo la direccion en el
+navegador, de esta forma solo se puede acceder desde al pagina principal. Todo esto se ecuentra el el archivo routes.js
+
+* CABECERAS
+
+Tengo dos cabeceras diferentes, una para la pagina de inicio y otra que comparten el resto de las paginas. Estas
+paginas se cargan como vistas dentro de un contenedor view mediante un controlador de angular.
+
+* LESS Y CSS
+
+En la carpeta de style se pueden encotrar los css necesarios de boostrap y un css que corresponde a los iconos de redes
+ sociales. El css personalizado se compila a partir de un archivo less que se puede encontrar el la carpeta less.
+Practicamente he utilizado las clases de boostrap para el diseño responsivo por lo que el css es bastante reducido.
+
+* IMAGENES
+
+En cuanto a las imagenes estas estan preparadas para pantallas retina por lo que estan la doble del tamaño maximo
+de reporduccion.
+
+
+************************************************************************************************************************
+
+Varios de los archivos necesarios se descargan mediante cdn por lo que es necesario tener conexion a internet para
+la correcta visualización de la pagina.
+
+RODRIGO BENITO DUQUE
