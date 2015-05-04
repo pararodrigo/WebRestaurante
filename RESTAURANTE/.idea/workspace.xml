@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fotos.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Fotos.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/Fotos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.15424165">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -132,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26184538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
               <folding />
             </state>
@@ -183,9 +183,9 @@
         <option value="$PROJECT_DIR$/view/Platos.html" />
         <option value="$PROJECT_DIR$/script/galeriaFotos.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/view/Fotos.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
         <option value="$PROJECT_DIR$/script/routes.js" />
+        <option value="$PROJECT_DIR$/view/Fotos.html" />
       </list>
     </option>
   </component>
@@ -846,18 +846,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/Fotos.html">
+    <entry file="file://$PROJECT_DIR$/script/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/routes.js">
+    <entry file="file://$PROJECT_DIR$/view/Fotos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26184538">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.15424165">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
